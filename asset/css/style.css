@@ -47,8 +47,17 @@ label{
 input, select{
   border: 1px solid purple;
   border-radius: 5px;
+  padding: 3px 0;
 }
 
-input{
-  padding: 5px 0;
+.pulsanti{
+  padding-bottom: 10px;
+  width: 100%;
+  text-align: center;
+
+}
+button{
+  background-color: lightgrey;
+  color: purple;
+
 }
