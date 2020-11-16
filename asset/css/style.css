@@ -5,7 +5,7 @@
 }
 
 body{
-  background-color: purple;
+  background-color: #b140b1;
 }
 
 .color{
@@ -15,6 +15,7 @@ body{
 label{
   color: purple;
   padding-bottom: 10px;
+  text-align: center;
 }
 
 .flex{
@@ -26,6 +27,8 @@ label{
   color: white;
   padding-top: 20px;
   padding-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 25px;
 }
 
 .container{
@@ -59,5 +62,7 @@ input, select{
 button{
   background-color: lightgrey;
   color: purple;
-
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
 }

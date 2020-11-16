@@ -18,23 +18,23 @@
       <!-- qui tre contenitori ognuno con label e input -->
       <div class="first-col flex">
         <label  for="Nome Cognome">Nome Cognome</label>
-        <input type="text" name="name" value="">
+        <input type="text" name="name" value="" id="passeggero">
 
       </div>
 
       <div class="second-col flex">
-        <label for="">Km da percorrere</label>
-        <input type="number" name="" value="">
+        <label for="km">Km da percorrere</label>
+        <input type="number" name="km" value="" id="distanza">
 
       </div>
 
       <div class="third-col flex">
 
-        <label for="">Fascia d'età</label>
-        <select name="" id="età">
-          <option value="minorenne">minorenne</option>
-          <option value="maggiorenne">maggiorenne</option>
-          <option value="over65">over 65</option>
+        <label for="età">Fascia d'età</label>
+        <select name="">
+          <option value="minorenne" id="minorenne">minorenne</option>
+          <option value="maggiorenne" id="maggiorenne">maggiorenne</option>
+          <option value="over65" id="over">over 65</option>
         </select>
 
       </div>
@@ -44,20 +44,12 @@
 
     <!-- inseriamo adesso i due bottoni genere e annulla -->
     <div class="pulsanti">
-      <button type="button" name="button">Genera</button>
-      <button type="button" name="button">Annulla</button>
+      <button id="genera" type="button" name="button">Genera</button>
+      <button id="annulla" type="button" name="button">Annulla</button>
 
     </div>
 
-
-
   </div>
-
-
-
-
-
-
 
   <script src="asset/js/main.js" charset="utf-8"></script>
 
