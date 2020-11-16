@@ -12,6 +12,11 @@ body{
   color: white;
 }
 
+label{
+  color: purple;
+  padding-bottom: 10px;
+}
+
 .flex{
   display: flex;
 }
@@ -25,8 +30,25 @@ body{
 
 .container{
   background-color: white;
+  width: 70%;
+  border-radius: 10px;
+  margin: 0 auto;
 }
 
-.first-col, .second-col{
+.form{
+  padding: 20px;
+  justify-content: space-around;
+}
+
+.first-col, .second-col, .third-col{
   flex-direction: column;
+}
+
+input, select{
+  border: 1px solid purple;
+  border-radius: 5px;
+}
+
+input{
+  padding: 5px 0;
 }
