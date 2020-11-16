@@ -2,7 +2,8 @@ var passeggero = document.getElementById('passeggero').value;
 console.log(passeggero);
 var distanza = document.getElementById('distanza').value;
 console.log(distanza);
-var age = document.getElementById('età').value;
+var age = document.getElementById('eta').value;
+console.log(age);
 
 
 var button_on = document.getElementById('genera');
@@ -14,10 +15,13 @@ button_on.addEventListener("click", function () {
 
   var distanza = document.getElementById('distanza').value;
 
-  var age = document.getElementById('età');
+  var age = document.getElementById('eta').value;
 
   console.log(passeggero, distanza, age);
 
+  var priceticket = (distanza * 0.21);
+
+  console.log(priceticket);
 });
 
 button_reset.addEventListener("click", function () {
