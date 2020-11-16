@@ -11,7 +11,7 @@ console.log(age);
 var button_on = document.getElementById('genera');
 var button_reset = document.getElementById('annulla');
 
-//eventi scaturiti dal borrone GENERA
+//eventi scaturiti dal bottone GENERA
 button_on.addEventListener("click", function () {
 
   var passeggero = document.getElementById('passeggero').value;
@@ -24,28 +24,40 @@ button_on.addEventListener("click", function () {
 
   var priceticket = (distanza * 0.21);
 
-  console.log(priceticket);
-
   var sconto1 = (priceticket / 100) * 20;
   var sconto2 = (priceticket / 100) * 40;
 
+  var prezzominore = priceticket - sconto1;
+  var prezzoover65 = priceticket - sconto2;
+
   if (age == "minorenne") {
-    priceticket = priceticket - sconto1;
+    prezzominore;
+    console.log(prezzominore);
 
+  } else if (age == "over65") {
+    prezzoover65;
+    console.log(prezzoover65);
   }
-
-
-
-
-
-
-
-
-
-
-
+  else {
+    priceticket;
+    console.log(priceticket);
   }
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 button_reset.addEventListener("click", function () {
 
