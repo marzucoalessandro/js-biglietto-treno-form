@@ -44,10 +44,19 @@ button_on.addEventListener("click", function () {
     var codcp = Math.floor(Math.random() * (100000 - 90000) ) + 90000;
     console.log(nomepasseggero, distanza, priceticket,  offerta, carrozza, codcp);
   }
+  //verificato che le condizioni siano giuste e che appaiano nella console;
+
+  //a questo punto dobbiamo inserirle nel nostro biglietto.
+  //creiamo prima delle variabili che prendano gli elementi del costobiglietto
+  var elpassenger = document.getElementById('passenger');
+  var elsconto = document.getElementById('sconto');
+  var elcarrozza = document.getElementById('carrozza');
+  var elcod_cp = document.getElementById('cod-cp');
+  var elcost_total = document.getElementById('costobiglietto');
+
+  //associamo ora qst variabili create con i ns valori riscontrati nella console
+
+  elpassenger.innerHTML = nomepasseggero;
 
 
 });
-
-//verificato che le condizioni siano giuste e che appaiano nella console;
-
-//a questo punto dobbiamo inserirle nel nostro biglietto.
