@@ -66,3 +66,26 @@ button{
   border-radius: 5px;
   border: 1px solid lightgrey;
 }
+
+.biglietto{
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.stampa{
+  width: 70%;
+  height: 200px;
+  background-color: white;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.details{
+  color: black;
+  font-size: 15px;
+  text-transform: uppercase;
+}
