@@ -47,7 +47,7 @@ button_on.addEventListener("click", function () {
   //verificato che le condizioni siano giuste e che appaiano nella console;
 
   //a questo punto dobbiamo inserirle nel nostro biglietto.
-  //creiamo prima delle variabili che prendano gli elementi del costobiglietto
+  //creiamo prima delle variabili che prendano gli elementi del biglietto
   var elpassenger = document.getElementById('passenger');
   var elsconto = document.getElementById('sconto');
   var elcarrozza = document.getElementById('carrozza');
@@ -57,6 +57,19 @@ button_on.addEventListener("click", function () {
   //associamo ora qst variabili create con i ns valori riscontrati nella console
 
   elpassenger.innerHTML = nomepasseggero;
+  elsconto.innerHTML = offerta;
+  elcarrozza.innerHTML = carrozza;
+  elcod_cp.innerHTML = codcp;
+  elcost_total.innerHTML = "€ " + priceticket;
+
+  // riscontrato a video inserimento dati
+
+});
+
+button_reset.addEventListener("click", function() {
+
+  console.log("cancella il biglietto");
+
 
 
 });
